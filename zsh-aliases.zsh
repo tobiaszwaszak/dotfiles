@@ -9,3 +9,5 @@ alias starwars="telnet towel.blinkenlights.nl"
 alias restart="sudo shutdown -r now"
 #reload zsh
 alias reload!='. ~/.zshrc'
+#ls -l
+alias ls="ls -l"

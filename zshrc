@@ -1,18 +1,20 @@
 export ZSH=$HOME/dotfiles/oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="eastwood"
 
-plugins=(git web-search sublime vagrant nyan command-not-found battery pow powder)
+plugins=(git web-search sublime vagrant nyan command-not-found battery pow powder osx rails)
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/local/bin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin"
 
 export RBENV_ROOT=/usr/local/var/rbenv
 
 source ~/dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source ~/dotfiles/zsh-aliases.zsh
+
+source ~/dotfiles/functions.zsh
 
 export EDITOR='subl -w'
 

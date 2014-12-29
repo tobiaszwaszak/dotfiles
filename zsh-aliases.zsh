@@ -10,4 +10,4 @@ alias restart="sudo shutdown -r now"
 #reload zsh
 alias reload!='. ~/.zshrc'
 #ls -l
-alias ls="ls -l"
+alias ls="ls -Gla"

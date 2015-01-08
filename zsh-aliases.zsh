@@ -13,3 +13,5 @@ alias reload!='. ~/.zshrc'
 alias ls="ls -Gla"
 #memcache-top
 alias mctop="perl ~/dotfiles/memcache-top"
+#tada
+alias tada="afplay ~/dotfiles/tada.wav"

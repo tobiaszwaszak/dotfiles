@@ -11,3 +11,5 @@ alias restart="sudo shutdown -r now"
 alias reload!='. ~/.zshrc'
 #ls -l
 alias ls="ls -Gla"
+#memcache-top
+alias mctop="perl ~/dotfiles/memcache-top"

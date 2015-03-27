@@ -54,3 +54,9 @@
   helper = osxkeychain
 [url "git@github.com:"]
   insteadOf = gh:
+[pull]
+	default = simple
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true

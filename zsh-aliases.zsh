@@ -15,3 +15,16 @@ alias ls="ls -Gla"
 alias mctop="perl ~/dotfiles/memcache-top"
 #tada
 alias tada="afplay ~/dotfiles/tada.wav"
+#windows sound
+alias windows-sound="afplay ~/dotfiles/oxp.wav"
+
+
+#git
+alias gpush='git push origin $(current_branch)'
+alias gpheroku='git push heroku $(current_branch)'
+alias gcb='git push -u origin $(current_branch)'
+alias gs='git status'
+alias gadd='git add --all'
+alias gc='git commit'
+alias gca='git commit --amend --date="$(date)"'
+alias wip='gaa && gca -m "WIP"'

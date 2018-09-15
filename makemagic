@@ -182,3 +182,6 @@ echo "Make dock transparent"
 
 echo "Restarting Dock"
   killall Dock
+  
+echo "change screenshots location"
+  defaults write com.apple.screencapture location /Users/tobiaszwaszak/screenshots
